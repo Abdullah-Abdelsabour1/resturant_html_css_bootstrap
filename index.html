@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+      <head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <!-- css bootstrap -->
+          <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+          <!-- cs style -->
+          <link rel="stylesheet" href="assets/css/style.css">
+          <!-- fontAwesome -->
+          <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+          <!-- font Google -->
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+          <!-- render all element -->
+          <link rel="stylesheet" href="assets/css/all.min.css">
+          <title> HOME </title>
+      </head> 
+
+      <body>
+      <!-- start nav-->
+      <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container">
+           <h3><span><i class="fas fa-utensils"></i></span> Food</h3>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+               <li class="nav-item ">
+                <a class="nav-link active p-2 p-lg-3 active" aria-current="page" href="index.html">Home</a>
+               </li>
+               <li class="nav-item">
+                <a class="nav-link p-2 p-lg-3" aria-current="page" href="menu.html">Menu</a>
+               </li>
+               <li class="nav-item">
+                <a class="nav-link  p-2 p-lg-3" aria-current="page" href="order.html">order</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link p-2 p-lg-3" href="about.html">About</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link p-2 p-lg-3" href="contact.html">Contact</a>
+               </li>  
+               <li class="nav-item">
+                 <a class="nav-link p-2 p-lg-3" href="sign_up.html"> register</a>
+               </li>  
+               <li class="nav-item">
+                 <a class="nav-link p-2 p-lg-3" href="sign_up.html"> log out</a>
+               </li>  
+               <div class="cart"><a href="cart.html"><i class="fas fa-cart-plus"></i></a></div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- end nav -->
+    <!-- start sliders -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <img src="imgs/careousel_1.jpg" class="d-block w-100 slider-img" alt="...">
+          <div class="slider-content">
+            <h1 class="title"> Tasty And Delcious </h1>
+             <p class="intro-text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. A voluptatem harum distinctio deleniti illo! Quis, quia! Incidunt beatae, molestiae dignissimos reiciendis, aliquam corrupti voluptates, nostrum non perferendis consequatur vero cum!
+            </p>
+            <div class="holder-button">
+              <a href="#menu" class="button menu-btn"> View Menu</a>
+              <a href="#booking" class="button book-btn"> Book Table </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="imgs/carousel_2.jpg" class="d-block w-100 slider-img" alt="...">
+          <div class="slider-content">
+            <h1 class="title"> Tasty And Delcious </h1>
+             <p class="intro-text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. A voluptatem harum distinctio deleniti illo! Quis, quia! Incidunt beatae, molestiae dignissimos reiciendis, aliquam corrupti voluptates, nostrum non perferendis consequatur vero cum!
+            </p>
+            <div class="holder-button">
+              <a href="#" class="button menu-btn"> View Menu</a>
+              <a href="#booking" class="button book-btn"> Book Table </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="imgs/carousel_3.jpg" class="d-block w-100 slider-img" alt="...">
+          <div class="slider-content">
+            <h1 class="title"> Tasty And Delcious </h1>
+             <p class="intro-text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. A voluptatem harum distinctio deleniti illo! Quis, quia! Incidunt beatae, molestiae dignissimos reiciendis, aliquam corrupti voluptates, nostrum non perferendis consequatur vero cum!
+            </p>
+            <div class="holder-button">
+                <a href="#" class="button menu-btn"> View Menu</a>
+                <a href="booking" class="button book-btn"> Book Table </a>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- End sliders -->
+     <!-- start about  -->
+     <div class="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="about-img">
+              <img src="imgs/about.jpg" alt="...">
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="about-content">
+              <div class="section-header">
+                <p>About us</p>
+                <h2>Cooking Since 1995</h2>
+              </div>
+              <div class="about-text">
+                <p>
+                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                   Phasellus nec pretium mi. Curabitur facilisis ornare velit 
+                   non vulputate. Aliquam metus tortor, auctor id gravida condimentum,
+                   viverra quis sem
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Phasellus nec pretium mi. Curabitur facilisis ornare velit 
+                    non vulputate. Aliquam metus tortor, auctor id gravida
+                    condimentum, viverra quis sem. Curabitur non nisl nec nisi
+                    scelerisque maximus. Aenean consectetur convallis porttitor.
+                    Aliquam interdum at lacus non blandit.
+                </p>
+                 <a href="order.html" class="btn custom-button"> Order Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+     <!-- end about  -->
+         <!-- start booking -->
+    <div class="booking" id="booking">
+      <div class="container">
+        <div class="row">
+        <div class="col-lg-7">
+          <div class="booking-content">
+            <div class="section-header">
+              <p>Book A Table</p>
+              <h2>Book Your Table For Private Dinners & Happy Hours</h2>
+            </div>
+            <div class="booking-text">
+              <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus nec pretium mi. Curabitur facilisis ornare velit 
+                  non vulputate. Aliquam metus tortor, auctor id gravida condimentum,
+                  viverra quis sem.
+              </p>
+              <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus nec pretium mi. Curabitur facilisis ornare velit
+                  non vulputate. Aliquam metus tortor, auctor id gravida
+                  condimentum, viverra quis sem. Curabitur non nisl nec
+                  nisi scelerisque maximus. Aenean consectetur convallis
+                  porttitor. Aliquam interdum at lacus non blandit.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <div class="booking-form">
+            <form>
+              <div class="control-group">
+                <input type="text" placeholder="Name" class="form-control">
+                <p class="blok-line"></p>
+              </div>
+              <div class="control-group">
+                <input type="text" placeholder="Email" class="form-control">
+                <p class="blok-line"></p>
+              </div>
+              <div class="control-group">
+                <input type="text" placeholder="Mobile" class="form-control">
+                <p class="blok-line"></p>
+              </div>
+              <div class="control-group">
+                <input type="date" placeholder="Date" class="form-control">
+                <p class="blok-line"></p>
+              </div>
+              <div class="control-group">
+                <input type="datetime" placeholder="Time" class="form-control">
+                <p class="blok-line"></p>
+              </div>
+              <div class="control-group">
+                <input type="text" placeholder=" Kind of Food" class="form-control">
+                <p class="blok-line"></p>
+              </div>
+             <div class="submit">
+              <button class="btn btn-custom">Book Now</button>
+             </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    <!-- end booking -->
+    <!-- start chef -->
+    <div class="chef">
+      <h2 class="main-title">Our <span> Chef </span></h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-3">
+            <div class="chef-box">
+              <div class="chef-img">
+                <img src="imgs/chef-1.jpg" alt="....">
+                <div class="social-icons">
+                  <div class="link"><i class="fab fa-twitter"></i></div>
+                  <div class="link"><i class="fab fa-facebook-f"></i></div>
+                  <div class="link"><i class="fab fa-youtube"></i></div>
+                  <div class="link"><i class="fab fa-instagram"></i></div>
+                </div>
+              </div>
+              <div class="chef-info">
+                <h2 class="chef-name">Adam Phillips</h2>
+                <p>CEO, Co Founder</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="chef-box">
+              <div class="chef-img">
+                <img src="imgs/chef-2.jpg" alt="....">
+                <div class="social-icons">
+                  <div class="link"><i class="fab fa-twitter"></i></div>
+                  <div class="link"><i class="fab fa-facebook-f"></i></div>
+                  <div class="link"><i class="fab fa-youtube"></i></div>
+                  <div class="link"><i class="fab fa-instagram"></i></div>
+                </div>
+              </div>
+              <div class="chef-info">
+                <h2 class="chef-name">Terry Samuel</h2>
+                <p>Commis Chef</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="chef-box">
+              <div class="chef-img">
+                <img src="imgs/chef-3.jpg" alt="....">
+                <div class="social-icons">
+                  <div class="link"><i class="fab fa-twitter"></i></div>
+                  <div class="link"><i class="fab fa-facebook-f"></i></div>
+                  <div class="link"><i class="fab fa-youtube"></i></div>
+                  <div class="link"><i class="fab fa-instagram"></i></div>
+                </div>
+              </div>
+              <div class="chef-info">
+                <h2 class="chef-name">Albert Doe</h2>
+                <p>Master Chef</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="chef-box">
+              <div class="chef-img">
+                <img src="imgs/chef-4.jpg" alt="....">
+                <div class="social-icons">
+                  <div class="link"><i class="fab fa-twitter"></i></div>
+                  <div class="link"><i class="fab fa-facebook-f"></i></div>
+                  <div class="link"><i class="fab fa-youtube"></i></div>
+                  <div class="link"><i class="fab fa-instagram"></i></div>
+                </div>
+              </div>
+              <div class="chef-info">
+                <h2 class="chef-name">Jack Dennis</h2>
+                <p>Kitchen Assistants</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+          <div class="row">
+            <div class="col-md-6 col-lg-3">
+              <div class="chef-box">
+                <div class="chef-img">
+                  <img src="imgs/chef-5.jpg" alt="....">
+                  <div class="social-icons">
+                    <div class="link"><i class="fab fa-twitter"></i></div>
+                    <div class="link"><i class="fab fa-facebook-f"></i></div>
+                    <div class="link"><i class="fab fa-youtube"></i></div>
+                    <div class="link"><i class="fab fa-instagram"></i></div>
+                  </div>
+                </div>
+                <div class="chef-info">
+                  <h2 class="chef-name">Robert John</h2>
+                  <p>Sous Chef </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="chef-box">
+                <div class="chef-img">
+                  <img src="imgs/chef-6.jpg" alt="....">
+                  <div class="social-icons">
+                    <div class="link"><i class="fab fa-twitter"></i></div>
+                    <div class="link"><i class="fab fa-facebook-f"></i></div>
+                    <div class="link"><i class="fab fa-youtube"></i></div>
+                    <div class="link"><i class="fab fa-instagram"></i></div>
+                  </div>
+                </div>
+                <div class="chef-info">
+                  <h2 class="chef-name">David	William</h2>
+                  <p>Senior Chef</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="chef-box">
+                <div class="chef-img">
+                  <img src="imgs/chef-7.jpg" alt="....">
+                  <div class="social-icons">
+                    <div class="link"><i class="fab fa-twitter"></i></div>
+                    <div class="link"><i class="fab fa-facebook-f"></i></div>
+                    <div class="link"><i class="fab fa-youtube"></i></div>
+                    <div class="link"><i class="fab fa-instagram"></i></div>
+                  </div>
+                </div>
+                <div class="chef-info">
+                  <h2 class="chef-name">Peter Kevin</h2>
+                  <p>Meat Chef</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="chef-box">
+                <div class="chef-img">
+                  <img src="imgs/chef-8.jpg" alt="....">
+                  <div class="social-icons">
+                    <div class="link"><i class="fab fa-twitter"></i></div>
+                    <div class="link"><i class="fab fa-facebook-f"></i></div>
+                    <div class="link"><i class="fab fa-youtube"></i></div>
+                    <div class="link"><i class="fab fa-instagram"></i></div>
+                  </div>
+                </div>
+                <div class="chef-info">
+                  <h2 class="chef-name">Frank Brandon</h2>
+                  <p>Pastry Chef </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- end chef -->
+    <!-- start feature  -->
+    <div class="feature ">
+      <h2 class="main-title">Our <span> feature </span></h2>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="feature-item">
+                <div class="images"><i class="fas fa-heart"></i><img src="imgs/feature-1.jpg" alt="..."> </div>
+                <h2>Burgers</h2>
+                <p>
+                    Lorem ipsum dolor sit amet elit. Phasel nec pretium mi.
+                    Curabit facilis ornare velit non vulputa. Aliquam metus
+                    tortor auctor quis sem.
+                </p>
+                <a href="#menu">View Menu</a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="feature-item second-item">
+                <div class="images"><i class="fas fa-heart"></i><img src="imgs/feature-2.jpg" alt="..."></div>
+                <h2>pizza</h2>
+                <p>
+                    Lorem ipsum dolor sit amet elit. Phasel nec pretium mi.
+                    Curabit facilis ornare velit non vulputa. Aliquam metus
+                    tortor auctor quis sem.
+                </p>
+                <a href="#menu">View Menu</a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="feature-item">
+                <div class="images"><i class="fas fa-heart"></i><img src="imgs/feature-3.jpg" alt="..."> </div>
+                <h2>Beverages</h2> 
+                <p>
+                    Lorem ipsum dolor sit amet elit. Phasel nec pretium mi.
+                    Curabit facilis ornare velit non vulputa. Aliquam metus
+                    tortor auctor quis sem.
+                </p>
+                <a href="#menu">View Menu</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <!-- end Feature -->
+       <!-- start menu -->
+       <div class="menu" id="menu">
+          <div class="content">
+              <h2 class="main-title"> Our <span>Menu</span></h2>
+              <div class="container">
+                <div class="row burger-box">
+                 <h2 class="title burger-title"> tasty burger</h2>
+
+                  <div class="col-md-6 col-lg-4">
+                    <div class="menu-box">
+                      <div class="menu-image"><img src="imgs/burger-1.jpg" alt="..."></div>
+                      <h3>Veggie burger</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, dolore</p>
+                       <div class="price"> <span>41$</span>
+                          <div class="add-item"> <div id ="quant" class="quant"><input type="number" class="number"></div><button id="btn-menu" class="btn btn-menu"> Add to cart</button> </div> 
+                       </div>
+                     </div>
+                  </div>
+
+                  <div class="col-md-6 col-lg-4">
+                    <div class="menu-box">
+                      <div class="menu-image"><img src="imgs/burger-2.jpg" alt="..."></div>
+                      <h3>Bean burger</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, dolore</p>
+                      <div class="price"> <span>34$</span>
+                        <div class="add-item"> <div id ="quant" class="quant"><input type="number" class="number"></div><button id="btn-menu" class="btn btn-menu"> Add to cart</button> </div> 
+                     </div>
+                     </div>
+                  </div>
+
+                  <div class="col-md-6 col-lg-4">
+                    <div class="menu-box">
+                      <div class="menu-image"><img src="imgs/burger-3.jpg" alt="..."></div>
+                      <h3>Cheeseburger</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, dolore</p>
+                      <div class="price"> <span>55$</span>
+                        <div class="add-item"> <div id ="quant" class="quant"><input type="number" class="number"></div><button id="btn-menu" class="btn btn-menu"> Add to cart</button> </div> 
+                     </div>                 </div>
+                  </div>
+
+                  <div class="col-md-6 col-lg-4">
+                    <div class="menu-box">
+                      <div class="menu-image"><img src="imgs/burger-4.jpg" alt="..."></div>
+                      <h3>Poached Burger</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, dolore</p>
+                      <div class="price"> <span>18$</span>
+                        <div class="add-item"> <div id ="quant" class="quant"><input type="number" class="number"></div><button id="btn-menu" class="btn btn-menu"> Add to cart</button> </div> 
+                     </div>                   </div>
+                  </div>
+
+                  <div class="col-md-6 col-lg-4">
+                    <div class="menu-box">
+                      <div class="menu-image"><img src="imgs/burger-5.jpg" alt="..."></div>
+                      <h3>Onion Burger</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, dolore</p>
+                      <div class="price"> <span>52$</span>
+                        <div class="add-item"> <div id ="quant" class="quant"><input type="number" class="number"></div><button id="btn-menu" class="btn btn-menu"> Add to cart</button> </div> 
+                     </div>                     </div>
+                  </div>
+
+                  <div class="col-md-6 col-lg-4">
+                    <div class="menu-box">
+                      <div class="menu-image"><img src="imgs/burger-6.png" alt="..."></div>
+                      <h3>Bison Burger</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, dolore</p>
+                      <div class="price"> <span>42$</span>
+                        <div class="add-item"> <div id ="quant" class="quant"><input type="number" class="number"></div><button id="btn-menu" class="btn btn-menu"> Add to cart</button> </div> 
+                     </div>                 </div>
+                  </div>
+
+            </div>
+             
+              <div class="row pizaa-box">
+                <h2 class="title pizza-title"> tasty Pizza</h2>
+                <div class="col-md-6 col-lg-4">
+                  <div class="menu-box">
+                    <div class="menu-image"><img src="imgs/pizza-1.jpg" alt="..."></div>
+                    <h3>Veggie Pizza</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, dolore</p>
+                    <div class="price"> <span>34$</span>
+                      <div class="add-item"> <div id ="quant" class="quant"><input type="number" class="number"></div><button id="btn-menu" class="btn btn-menu"> Add to cart</button> </div> 
+                   </div>                 </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                  <div class="menu-box">
+                    <div class="menu-image"><img src="imgs/pizza-2.jpg" alt="..."></div>
+                    <h3>Meat Pizza</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, dolore</p>
+                    <div class="price"> <span>26$</span>
+                      <div class="add-item"> <div id ="quant" class="quant"><input type="number" class="number"></div><button id="btn-menu" class="btn btn-menu"> Add to cart</button> </div> 
+                   </div>               </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                  <div class="menu-box">
+                    <div class="menu-image"><img src="imgs/pizza-3.jpg" alt="..."></div>
+                    <h3>Detroit Pizza</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, dolore</p>
+                    <div class="price"> <span>47$</span>
+                      <div class="add-item"> <div id ="quant" class="quant"><input type="number" class="number"></div><button id="btn-menu" class="btn btn-menu"> Add to cart</button> </div> 
+                   </div>                </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                  <div class="menu-box">
+                    <div class="menu-image"><img src="imgs/pizza-4.jpg" alt="..."></div>
+                    <h3>Margherita Pizza</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, dolore</p>
+                    <div class="price"> <span>37$</span>
+                      <div class="add-item"> <div id ="quant" class="quant"><input type="number" class="number"></div><button id="btn-menu" class="btn btn-menu"> Add to cart</button> </div> 
+                   </div>                   </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                  <div class="menu-box">
+                    <div class="menu-image"><img src="imgs/pizza-5.jpg" alt="..."></div>
+                    <h3>Hawaiian Pizza</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, dolore</p>
+                    <div class="price"> <span>45$</span>
+                      <div class="add-item"> <div id ="quant" class="quant"><input type="number" class="number"></div><button id="btn-menu" class="btn btn-menu"> Add to cart</button> </div> 
+                   </div>                   </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                  <div class="menu-box">
+                    <div class="menu-image"><img src="imgs/pizaa-6.jpg" alt="..."></div>
+                    <h3>Buffalo Pizza</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, dolore</p>
+                    <div class="price"> <span>10$</span>
+                      <div class="add-item"> <div id ="quant" class="quant"><input type="number" class="number"></div><button id="btn-menu" class="btn btn-menu"> Add to cart</button> </div> 
+                   </div>                  </div>
+                </div>
+
+              </div>
+            
+              <div class="row beverage-box">
+                <h2 class="title beverage-title"> tasty beverage</h2>
+
+                <div class="col-md-6 col-lg-4">
+                  <div class="menu-box">
+                    <div class="menu-image"><img src="imgs/beverage_1.jpg" alt="..."></div>
+                    <h3></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, dolore</p>
+                    <div class="price"> <span>16$</span>
+                      <div class="add-item"> <div id ="quant" class="quant"><input type="number" class="number"></div><button id="btn-menu" class="btn btn-menu"> Add to cart</button> </div> 
+                   </div>                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                  <div class="menu-box">
+                    <div class="menu-image"><img src="imgs/beverage_2.jpg" alt="..."></div>
+                    <h3></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, dolore</p>
+                    <div class="price"> <span>27$</span>
+                      <div class="add-item"> <div id ="quant" class="quant"><input type="number" class="number"></div><button id="btn-menu" class="btn btn-menu"> Add to cart</button> </div> 
+                   </div>                   </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                  <div class="menu-box">
+                    <div class="menu-image"><img src="imgs/beverage_3.jpg" alt="..."></div>
+                    <h3></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, dolore</p>
+                    <div class="price"> <span>17$</span>
+                      <div class="add-item"> <div id ="quant" class="quant"><input type="number" class="number"></div><button id="btn-menu" class="btn btn-menu"> Add to cart</button> </div> 
+                   </div>                 </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                  <div class="menu-box">
+                    <div class="menu-image"><img src="imgs/beverage_4 .jpg" alt="..."></div>
+                    <h3></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, dolore</p>
+                    <div class="price"> <span>32$</span>
+                      <div class="add-item"> <div id ="quant" class="quant"><input type="number" class="number"></div><button id="btn-menu" class="btn btn-menu"> Add to cart</button> </div> 
+                   </div>                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                  <div class="menu-box">
+                    <div class="menu-image"><img src="imgs/beverage_5.jpg" alt="..."></div>
+                    <h3></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, dolore</p>
+                    <div class="price"> <span>14$</span>
+                      <div class="add-item"> <div id ="quant" class="quant"><input type="number" class="number"></div><button id="btn-menu" class="btn btn-menu"> Add to cart</button> </div> 
+                   </div>                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                  <div class="menu-box">
+                    <div class="menu-image"><img src="imgs/beverage_6.jpg" alt="..."></div>
+                    <h3></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, dolore</p>
+                    <div class="price"> <span>25$</span>
+                      <div class="add-item"> <div id ="quant" class="quant"><input type="number" class="number"></div><button id="btn-menu" class="btn btn-menu"> Add to cart</button> </div> 
+                   </div>                  
+                   </div>
+                </div>
+
+              </div>
+
+              </div>
+          </div>
+       </div>
+      <!-- end menu -->
+    
+    <!-- start contact us -->
+     <div class="contact">
+      <div class="content">
+      <h2 class="main-title"><span>Contact</span> Us</h2> 
+       <div class="container">
+        <div class="row contact-information ">
+         <div class="col-md-6 col-lg-3">
+          <div class="contact-info">
+            <div class="contact-icon">
+              <i class="fas fa-map-marker-alt" style="color:white;"></i>
+            </div>
+            <div class="contact-text">
+              <h3>Address</h3>
+              <p>123 Street, NY, USA</p>
+            </div>
+          </div>
+       </div>
+      <div class="col-md-6 col-lg-3">
+          <div class="contact-info">
+            <div class="contact-icon">
+              <i class="fas fa-phone-alt" style="color:white"></i>
+            </div>
+            <div class="contact-text">
+              <h3>Call Us</h3>
+              <p>+012 345 6789</p>
+            </div>
+            </div>
+       </div>
+       <div class="col-md-6 col-lg-3">
+          <div class="contact-info">
+            <div class="contact-icon">
+              <i class="fas fa-envelope" style="color:white;"></i>
+            </div>
+            <div class="contact-text">
+              <h3>Email Us</h3>
+              <p>info@example.com </p>
+            </div>
+          </div>
+         </div>
+         <div class="col-md-6 col-lg-3">
+          <div class="contact-info">
+            <div class="contact-icon">
+              <i class="fas fa-share" style="color:white;"></i>
+            </div>
+            <div class="contact-text">
+              <h3>Follow Us</h3>
+               <div class="contact-social-icon">
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-youtube"></i>
+                <i class="fab fa-linkedin-in"></i>
+               </div>
+            </div>
+          </div>
+         </div>
+        </div>
+         <div class="row contact-form">
+          <div class="col-md-6">
+            <div class="map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1600663868074!5m2!1sen!2sbd" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <form>
+              <div class="control-group">
+                <input type="text" placeholder="Your Name" class="form-control" required>
+                <p class="block-line"></p>
+              </div>
+              <div class="control-group">
+                <input type="email" placeholder="Your Email" class="form-control" required>
+                <p class="block-line"></p>
+              </div>
+              <div class="control-group">
+                <input type="text" placeholder="subject" class="form-control" required>
+                <p class="block-line"></p>
+              </div>
+              <div class="control-group">
+                 <textarea class="form-control" placeholder="Message">Message</textarea>
+                <p class="block-line"></p>
+              </div>
+              <div class="button">
+                <a href="#" class="btn custom-button"> Send Message</a>
+              </div>
+            </form>
+          </div>
+         </div>
+       </div>
+      </div>
+     </div>
+    <!-- end contact us -->
+    <!-- start footer -->
+    <div class="footer">
+      <div class="container">
+      <div class="row box">
+        <div class="col-md-6 col-lg-3">
+          <div class="footer-contact">
+            <h2>Our Address</h2>
+            <p class="address"> <i class="fa fa-map-marker-alt"></i>  123 Street, New York, USA</p>
+            <p class="phone"> <i class="fas fa-phone-alt"></i>  +012 345 67890</p>
+            <p class="email"><i class="fa fa-envelope"></i>  info@example.com</p>
+            <div class="footer-social">
+                <div class="link"><i class="fab fa-twitter"></i></div>
+                <div class="link"><i class="fab fa-facebook-f"></i></div>
+                <div class="link"><i class="fab fa-youtube"></i></div>
+                <div class="link"><i class="fab fa-instagram"></i></div>
+                <div class="link"><i class="fab fa-linkedin-in"></i></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="footer-links">
+            <h2>Quick Links</h2>
+              <a href="#"> <i class="fas fa-angle-right"></i> Terms of use</a>
+              <a href="#"> <i class="fas fa-angle-right"></i> Privacy policy</a>
+              <a href="#"> <i class="fas fa-angle-right"></i> Cookies</a>
+              <a href="#"> <i class="fas fa-angle-right"></i> Help</a>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="footer-newsletter">
+            <h2>New Sletter</h2>
+            <p class="info">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit
+                Quod aperiam distinctio voluptatem quisquam adipisci veniam
+            </p>
+              <form>
+                 <input type="text" class="form-control" placeholder="Enter Your Email">
+                 <button class="btn custom-btn">Submit</button>
+              </form>
+          </div>
+        </div>
+       </div>
+   </div>
+  </div>
+   <div class="copyright">
+     <div class="container">
+       <p>Copyright © <a href="#">Tasty Food</a>, All Right Reserved</p>
+       <p>Designed By <a href="#">Abdullah Abada</a></p>
+     </div>
+   </div>
+    <!-- end footer -->
+    <!-- bootstrap js -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- js -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
